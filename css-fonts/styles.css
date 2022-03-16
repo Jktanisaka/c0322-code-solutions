@@ -1,0 +1,8 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  line-height: 2em;
+}
+h1,
+h2 {
+  font-family: 'League Gothic', sans-serif;
+}
