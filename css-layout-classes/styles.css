@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-third {
+  width: 33%;
+}
+
+.column-two-thirds {
+  width: 66%;
+}
+
+.column-fourth {
+  width: 25%;
+}
+
+img {
+  width: 100%;
+}
