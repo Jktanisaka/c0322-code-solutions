@@ -2,10 +2,9 @@
   font-family: Barlow, serif;
 }
 
-div.column-quarter {
+.column-quarter-styling {
   text-align: center;
   display: block;
-  display: flex:;
   justify-content: center;
   margin-left: 18px;
   margin-right: 18px;
