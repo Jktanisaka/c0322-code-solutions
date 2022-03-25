@@ -12,9 +12,6 @@ return newArray afteer the loop ends
 
 function reverse(array) {
   var newArray = [];
-  if (array === []) {
-    return [];
-  }
   for (var i = array.length - 1; i >= 0; i--) {
     newArray.push(array[i]);
   }
