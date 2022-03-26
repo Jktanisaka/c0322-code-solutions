@@ -6,8 +6,5 @@ assign that key to value
 return prop
 */
 function setValue(object, key, value) {
-  for (var prop in object) {
-    object[key] = value;
-  }
-  return prop;
+  object[key] = value;
 }
