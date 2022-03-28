@@ -1,30 +1,26 @@
 /* exported swapChars */
 /*
 create new function with parameters firstIndex, secondIndex, and string
-both indexes will be numbers
-split the string into an array so it can be manipulated and assign it to the variable newString
-store the values of string[firstIndex] and
-string[secondIndex] in variables to be used later
-assign the stored values to their corresponding index spots in the array (
-  assign value of secondindex to the firstindex value in the array
-  assign value of firstindex to the sexondindex value in the array
-)
-join the array back into a string and return the value
-*/
-/*
-function swapChars(firstIndex, secondIndex, string) {
-  var newString = string.split('');
-  var first = string[firstIndex];
-  var second = string[secondIndex];
-  newString[firstIndex] = second;
-  newString[secondIndex] = first;
-  return newString.join('');
-}
+create var newString and assign an empty string (will be adding letters to this)
+write a for loop that iterates through each letter in the string
+the loop will replace the specified index numbers with each other without altering
+the other letters in the string
+if i is equal to the first index, then assign the value at the secondindex
+if i is equal to the second index, then assign the value at the firstIndex
+if neither happens, push the value at string[i]
+once the loop is done increment i by 1
+once the loop is done return newString
 */
 function swapChars(firstIndex, secondIndex, string) {
-  var first = string[firstIndex];
-  var second = string[secondIndex];
-  var newString = string.replace(second, first);
-  newString = newString.replace(newString[firstIndex], second);
+  var newString = '';
+  for (var i = 0; i < string.length; i++) {
+    if (i === firstIndex) {
+      newString += string[secondIndex];
+    } else if (i === secondIndex) {
+      newString += string[firstIndex];
+    } else {
+      newString += string[i];
+    }
+  }
   return newString;
 }
