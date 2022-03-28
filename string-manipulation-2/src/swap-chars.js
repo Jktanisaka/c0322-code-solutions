@@ -11,6 +11,7 @@ assign the stored values to their corresponding index spots in the array (
 )
 join the array back into a string and return the value
 */
+/*
 function swapChars(firstIndex, secondIndex, string) {
   var newString = string.split('');
   var first = string[firstIndex];
@@ -18,4 +19,12 @@ function swapChars(firstIndex, secondIndex, string) {
   newString[firstIndex] = second;
   newString[secondIndex] = first;
   return newString.join('');
+}
+*/
+function swapChars(firstIndex, secondIndex, string) {
+  var first = string[firstIndex];
+  var second = string[secondIndex];
+  var newString = string.replace(second, first);
+  newString = newString.replace(newString[firstIndex], second);
+  return newString;
 }
