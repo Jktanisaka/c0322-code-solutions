@@ -8,20 +8,20 @@ if the click is true change the class names for both the button and background t
 if the click is false, change the class names again to the off colors
 at the end of each condition, assign clicks the opposite boolean value
 */
-var clicks = false;
+var isLightOn = false;
 var button = document.querySelector('.column25');
 var background = document.querySelector('.container');
 button.addEventListener('click', buttonClick);
 
 function buttonClick(event) {
-  if (clicks === true) {
+  if (isLightOn === true) {
     button.className = 'column25 on';
     background.className = 'container container-on';
-    clicks = false;
+    isLightOn = false;
   } else {
     button.className = 'column25 off';
     background.className = 'container container-off';
-    clicks = true;
+    isLightOn = true;
   }
 
 }
