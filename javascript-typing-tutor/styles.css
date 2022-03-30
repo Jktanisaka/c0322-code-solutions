@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.page-height {
+  min-height: 100vh;
+}
