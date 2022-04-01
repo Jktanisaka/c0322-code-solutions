@@ -5,6 +5,7 @@ function pick(source, keys) {
     if (keys[i] in source) {
 
       newObj[keys[i]] = source[keys[i]];
+
     }
   }
   return newObj;
