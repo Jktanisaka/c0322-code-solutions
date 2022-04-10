@@ -1,5 +1,5 @@
 .container {
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -281,4 +281,23 @@ p {
   font-size: 13px;
   line-height: 1.5em;
   width: 400px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.img-styling {
+  width: 100%;
+  margin-right: 3rem;
+}
+
+.product-div {
+  margin-bottom: 4rem;
+  padding-left: 60px;
+  padding-right: 0;
+}
+
+.product-h2 {
+  margin-top: 3rem;
 }
