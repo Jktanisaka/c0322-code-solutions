@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-60 {
+  flex-basis: 60%;
+}
+
+.column-20 {
+  flex-basis: 20%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+i {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.fa-circle {
+  margin: 0 0.3rem;
+}
