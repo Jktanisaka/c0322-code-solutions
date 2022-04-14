@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Carousel</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column-full">
+        <div class="row" id="arrow-container">
+          <div class="column-20 flex align-center justify-center">
+            <i class="fas fa-angle-left arrow-styling" id="left-arrow"></i>
+          </div>
+          <div class="column-60 flex justify-center">
+            <img src="images/001.png">
+          </div>
+          <div class="column-20 flex align-center justify-center">
+            <i class="fas fa-angle-right arrow-styling" id="right-arrow"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-center justify-center">
+      <div class="column-full flex justify-center" id="circle-container">
+        <i class="fas fa-circle circle-margin" id="circle-1"></i>
+        <i class="far fa-circle circle-margin" id="circle-2"></i>
+        <i class="far fa-circle circle-margin" id="circle-3"></i>
+        <i class="far fa-circle circle-margin" id="circle-4"></i>
+        <i class="far fa-circle circle-margin" id="circle-5"></i>
+      </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
