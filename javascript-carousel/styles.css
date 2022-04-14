@@ -38,11 +38,10 @@
   display: flex;
 }
 
-i {
-  font-weight: 300;
-  font-size: 20px;
+.arrow-styling {
+  font-size: 60px;
 }
 
-.fa-circle {
-  margin: 0 0.3rem;
+.circle-margin {
+  margin: 0 0.4rem;
 }
