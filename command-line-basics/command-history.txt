@@ -1,0 +1,500 @@
+  109  git status
+  110  git commit -m "completed javascript-function exercise"
+  111  git push origin javascript-functions
+  112  git switch main
+  113  git branch javascript-functions-practice
+  114  git branch --list
+  115  git switch javascript-functions-practice
+  116  git status
+  117  git status
+  118  git add javascript-data-model
+  119  git status
+  120  git commit -m "completed javascript-data-model exercise Jonathan Tanisaka"
+  121  git push origin javascript-data-model
+  122  git switch main
+  123  git pull origin main
+  124  git switch css-four-column-layout
+  125  git status
+  126  git add javascript-functions-practice
+  127  git status
+  128  git commit -m "completed javascript-functions-practice exercise Jonathan Tanisaka"
+  129  git push origin javascript-functions-practice
+  130  git switch main
+  131  git status
+  132  git pull origin main
+  133  git status
+  134  git status
+  135  git add css-four-column-layout
+  136  git status
+  137  git commit -m "completed four-column-layout challenge Jonathan Tanisaka"
+  138  git status
+  139  git add css-four-column-layout
+  140  git status
+  141  git commit -m "completed four-column-layout challenge Jonathan Tanisaka"
+  142  git push origin css-four-column-layout
+  143  git switch main
+  144  git pull origin main
+  145  git pull origin main
+  146  git branch javascript-data-model
+  147  git branch --list
+  148  git switch javascript-data-model
+  149  git status
+  150  git status
+  151  git status
+  152  git switch javascript-functions-practice
+  153  git status
+  154  git status
+  155  git add javascript-functions-practice/get-property-value.js
+  156  git status
+  157  git commit -m "completed javascript functions practice"
+  158  git push origin javascript-functions-practice
+  159  git status
+  160  git switch main
+  161  git pull origin main
+  162  git status
+  163  git branch css-ecommerce-page
+  164  git switch branch css-ecommerce-page
+  165  git switch css-ecommerce-page
+  166  git status
+  167  git status
+  168  git add css-ecommerce-page
+  169  git status
+  170  git add css-ecommerce-page
+  171  git status
+  172  git commit -m "completed css-ecommerce-page challenge Jonathan Tanisaka"
+  173  git push origin css-ecommerce-page
+  174  git switch main
+  175  git pull origin main
+  176  git status
+  177  git pull origin main
+  178  git branch javascript-methods
+  179  git branch --list
+  180  git switch javascript-methods
+  181  git status
+  182  git add javascript-methods
+  183  git status
+  184  git commit -m "completed javascript-methods exercise Jonathan Tanisaka"
+  185  git push origin javascript-methods
+  186  git status
+  187  git switch main
+  188  git pull origin main
+  189  What three-letter acronym should you always include in your Google search about a JavaScript method or CSS property?
+  190  git branch javascript-if
+  191  git branch --list
+  192  git switch javascript-if
+  193  git status
+  194  git add javascript-if
+  195  git status
+  196  git commit -m "completed javascript-if exercise Jonathan Tanisaka"
+  197  git push origin javascript-if
+  198  git switch main
+  199  git pull origin main
+  200  git branch javascript-loops
+  201  git branch --list
+  202  git switch javascript loops
+  203  git switch javascript-loops
+  204  git status
+  205  git add javascript-loops
+  206  git status
+  207  git commit -m "completed javascript-loops exercise Jonathan Tanisaka"
+  208  git push origin javascript-loops
+  209  git switch main
+  210  git pull origin main
+  211  git status
+  212  git pull origin main
+  213  git branch javascript-light-bulb
+  214  git switch javascrippt-light-bulb
+  215  git switch javascript-light-bulb
+  216  git status
+  217  git add javascript-light-bulb
+  218  git status
+  219  git commit -m "completed javascript-light-bulb challenge Jonathan Tanisaka"
+  220  git push origin javscript-light-bulb
+  221  git push origin javascript-light-bulb
+  222  git switch main
+  223  git pull origin main
+  224  git switch javascript-light-bulb
+  225  git status
+  226  git add javascript-light-bulb
+  227  git status
+  228  git commit -m "completed javascript-light-bulb challenge with boolean Jonathan Tanisaka"
+  229  git push origin javascript-light-bulb
+  230  git switch main
+  231  git pull origin main
+  232  git branch javascript-modal
+  233  git switch javascript-modal
+  234  git status
+  235  git status
+  236  git add javascript-modal
+  237  git status
+  238  git commit -m "completed javascript-modal challenge Jonathan Tanisaka"
+  239  git push origin javascript-modal
+  240  git switch main
+  241  git pull origin main
+  242  git switch javascript-light-bulb
+  243  git status
+  244  git add javascript-light-bulb
+  245  git commit -m "updated variable name in js"
+  246  git push origin javascript-light-bulb
+  247  git switch main
+  248  git branch javascript-typing-tutor
+  249  git status
+  250  git switch javascript-typing-tutor
+  251  git add javascript-typing-tutor
+  252  git commit -m "in progress"
+  253  git switch main
+  254  git branch css-transitions
+  255  git switch css-transitions
+  256  git status
+  257  git add css-transitions
+  258  git commit -m "completed css-transitions exercise Jonathan Tanisaka"
+  259  git push origin css-transitions
+  260  git switch main
+  261  git pull origin main
+  262  git switch javascript-typing-tutor
+  263  git status
+  264  git add javascript-typing-tutor
+  265  git commit -m "in progress"
+  266  git switch main
+  267  git status
+  268  git pull origin main
+  269  git branch javascript-forms
+  270  git switch javascript-forms
+  271  git status
+  272  git add javascript-forms
+  273  git commit -m "completed javascript-forms exercise Jonathan Tanisaka"
+  274  git push origin javascript-forms
+  275  git switch main
+  276  git pull origin main
+  277  git branch dom-creation
+  278  git switch dom-creation
+  279  git status
+  280  git add dom-creation
+  281  git add dom-creation
+  282  git status
+  283  git commit -m "completed dom-creation exercise Jonathan Tanisaka"
+  284  git push origin dom-creation
+  285  git switch main
+  286  git pull origin
+  287  git switch javascript-forms
+  288  git add javscript-forms
+  289  git add javascript-forms
+  290  git commit -m "updated javascript forms exercise"
+  291  git push origin javascript-forms
+  292  git switch main
+  293  git switch javascript-typing-tutor
+  294  git add javascript-typing-tutor
+  295  git status
+  296  git commit -m "completed javascript-typing-tutor challenge"
+  297  git push origin javascript-typing-tutor
+  298  git switch main
+  299  git pull origin main
+  300  git branch css-media-queries
+  301  git switch css-media-queries
+  302  git status
+  303  git add css-media-queries
+  304  git commit -m "completed css-media-queries exercise"
+  305  git push origin css-media-queries
+  306  git switch main
+  307  git pull origin main
+  308  git pull origin main
+  309  git branch dom-event-delegation
+  310  git switch dom-event-delegation
+  311  git status
+  312  git add dom-event-delegation
+  313  git status
+  314  git commit -m "completed dom-event-delegation exercise Jonathan Tanisaka"
+  315  git push origin dom-event-delegation
+  316  git switch main
+  317  git pull origin main
+  318  git branch javascript-view-swapping
+  319  git switch javascript-view-swapping
+  320  git status
+  321  git add javascript-view-swapping
+  322  git commit -m "completed javascript-view-swapping exercise"
+  323  git push origin javascript-view-swapping
+  324  git switch main
+  325  git pull origin main
+  326  git pull origin main
+  327  git switch object-manipulation-2
+  328  git add object-manipulation-2
+  329  git commit -m "in progress"
+  330  git switch main
+  331  git pull origin main
+  332  git branch css-responsive-layout
+  333  git switch css-responsive-layout
+  334  git status
+  335  git add css-responsive-layout
+  336  git commit -m "completed css-responsive-layout exercise"
+  337  git push origin css-responsive-layout
+  338  git switch main
+  339  git switch css-responsive-layout
+  340  git switch main
+  341  git pull origin main
+  342  git switch object-manipulation-2
+  343  git add object-manipulation-2
+  344  git commit -m "in progress"
+  345  git add object-manipulation-2
+  346  git commit -m "in progress"
+  347  git add object-manipulation-2
+  348  git commit -m "in progress"
+  349  git switch main
+  350  git pull origin main
+  351  git branch javascript-and-json
+  352  git switch javascript=and=json
+  353  git switch javascript-and-json
+  354  git status
+  355  git add javascript-and-json
+  356  git status
+  357  git commit -m "completed javascript-and-json exercise"
+  358  git push origin javascript-and-json
+  359  git add javascript-and-json
+  360  git commit -m "updated exercise"
+  361  git push origin javascript-and-json
+  362  git switch main
+  363  git pull origin main
+  364  git branch javascript-local-storage
+  365  git switch javascript-local-storage
+  366  git status
+  367  git add javascript-local-storage
+  368  git commit -m "completed javascript-local storage exercise"
+  369  git push origin javascript-local-storage
+  370  git switch main
+  371  git pull origin main
+  372  git switch object-manipulation-2
+  373  git add object-manipulation-2
+  374  git commit -m "in progress"
+  375  git switch main
+  376  git pull origin main
+  377  git switch object-manipulation-2
+  378  git status
+  379  git add object-manipulation-2
+  380  git commit -m "completed object-manipulation-2 exercise"
+  381  git push origin object-manipulation-2
+  382  git switch main
+  383  git pull origin main
+  384  git branch string-manipulation-3
+  385  git switch string-manipulation-3
+  386  git add string-manipulation-3
+  387  git status
+  388  git commit -m "completed string-manipulation-3"
+  389  git push origin string-manipulation-3
+  390  git switch main
+  391  git pull origin main
+  392  git branch array-manipulation-3
+  393  git switch array-manipulation-3
+  394  git add array-manipulation-3
+  395  git commit -m "in progress"
+  396  git status
+  397  git add array-manipulation-3
+  398  git commit -m "in progress"
+  399  git add array-manipulation-3
+  400  git commit -m "in progress"
+  401  git add array-manipulation-3
+  402  git commit -m "in progress"
+  403  git status
+  404  git add array-manipulation-3
+  405  git commit -m "completed array-manipulation-3"
+  406  git push origin array-manipulation-3
+  407  git switch main
+  408  git pull origin main
+  409  git branch object-manipulation-3
+  410  git switch object-manipulation-3
+  411  git status
+  412  git add object-manipulation-3
+  413  git commit -m "in progress"
+  414  git add object-manipulation-3
+  415  git commit -m "in progress"
+  416  git switch main
+  417  git pull origin main
+  418  git switch string-manipulation-3
+  419  git status
+  420  git add string-manipulation-3
+  421  git commit -m "completed reverseWords exercies"
+  422  git push origin string-manipulation-3
+  423  git switch main
+  424  git switch main
+  425  git pull origin main
+  426  git branch http-messages
+  427  git switch http-messages
+  428  git switch main
+  429  http
+  430  git switch http-messages
+  431  git switch main
+  432  git switch http-messages
+  433  http https://example.com
+  434  http --verbose https://example.com
+  435  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  436  http --body GET https://example.com > http-messages/index.html
+  437  git status
+  438  git add http-messages
+  439  git commit =m "completed http-messages exercise"
+  440  git commit -m "completed http-messages exercise"
+  441  git push origin http-messages
+  442  git switch main
+  443  git branch javascript-ajax
+  444  git switch javascript-ajax
+  445  git status
+  446  git add javascript-ajax
+  447  git commit -m "completed javascript-ajax exercise"
+  448  git push origin javascript-ajax
+  449  git switch main
+  450  git pull origin main
+  451  GET http[s]://ergast.com/api/f1/2020/1
+  452  http https://ergast.com/api/f1/2020/1
+  453  http https://api.chess.com/pub/player/cherubicpegasus
+  454  http  https://api.chess.com/pub/player/cherubicpegasus/stats
+  455  http https://api.pokemontcg.io/v2/cards
+  456  https://api.pokemontcg.io/v2/cards/xy1-1
+  457  http https://api.pokemontcg.io/v2/cards/xy1-1
+  458  http https://valorant-api.com/v1/weapons
+  459  http https://valorant-api.com/v1/agents
+  460  http https://valorant-api.com/v1/agents/omen
+  461  http https://valorant-api.com/v1/weapons
+  462  http https://www.thingiverse.com/thing:5323208
+  463  http api/fruit/all
+  464  http fruityvice.com/api/fruit/all
+  465  http fruityvice.com//api/fruit/:nutrition?min=0&max=1000
+  466  http fruityvice.com/api/fruit/:nutrition?min=0&max=1000
+  467  /api/fruit/:nutrition?min=0&max=1000
+  468  /api/fruit/:nutrition?min=0&max=1000
+  469  /api/fruit/:nutrition?min=0&max=1000
+  470  /api/fruit/:nutrition?min=0&max=1000
+  471  /api/fruit/:nutrition?min=0&max=1000
+  472  /api/fruit/:nutrition?min=0&max=1000
+  473  /api/fruit/:nutrition?min=0&max=1000
+  474  /api/fruit/:nutrition?min=0&max=1000
+  475  http api/fruit/all
+  476  http https://fruityvice.com/api/fruit/all
+  477  http https://api.pokemontcg.io/v2/cards/xy1-2
+  478  http https://api.domainsdb.info/v1/domains/jktprints.com
+  479  http https://api.domainsdb.info/v1/domains/search
+  480  https://domainsdb.info/v1/domains/search
+  481  http  https://domainsdb.info/v1/domains/search
+  482  http https://api.domainsdb.info/v1/domains/search?domain=jktprints.com
+  483  http https://api.domainsdb.info/v1/domains/search?domain=jktprints
+  484  http https://api.domainsdb.info/v1/domains/search?domain=facebook
+  485  http https://api.domainsdb.info/v1/domains/search?domain=jktprints
+  486  http https://api.domainsdb.info/v1/domains/search?domain=youtube
+  487  http https://api.domainsdb.info/v1/domains/search?domain=etsy
+  488  http https://api.domainsdb.info/v1/domains/search?domain=facebook.com
+  489  http https://api.domainsdb.info/v1/domains/search?domain=evike
+  490  http https://api.domainsdb.info/v1/domains/search?domain=airsoftgi
+  491  http https://api.domainsdb.info/v1/domains/search?domain=github
+  492  http https://api.artic.edu/api/v1/artworks
+  493  http https://digimoncard.io/api-public/getAllCards.php?sort=name&series=Digimon Card Game&sortdirection=asc
+  494  http https://digimoncard.io/api-public/search.php?n=Agumon
+  495  git branch interview prep
+  496  git switch interview prep
+  497  git branch interview-prep
+  498  git switch interview-prep
+  499  git switch main
+  500  git pull origin main
+  501  git status
+  502  git pull origin main
+  503  git branch es6-const-let
+  504  git switch es6-const-let
+  505  git status
+  506  git add es6-const-let
+  507  git commit -m "completed es6-const-let exercise"
+  508  git push origin es6-const-let
+  509  git switch main
+  510  git branch es6-template-literals
+  511  git switch es6-template-literals
+  512  git status
+  513  git add es6-template-literals
+  514  git commit -m "completed es6-template-literals exercise"
+  515  git push origin es6-template-literals
+  516  git switch main
+  517  git branch es6-destructuring
+  518  git switch es6-destructuring
+  519  git status
+  520  git add es6-destructuring
+  521  git status
+  522  git commit -m "completed es6-destructuring exercise"
+  523  git push origin es6-destructuring
+  524  git switch main
+  525  git branch es6-arrow-functions
+  526  git switch es6-arrow-functions
+  527  git status
+  528  git add es6-arrow-functions
+  529  git commit -m "completed es6-arrow-functions exercise"
+  530  git push origin es6-arrow-functions
+  531  git status
+  532  git switch main
+  533  git status
+  534  git pull origin main
+  535  git branch command-line-basics
+  536  git switch command-line-basics
+  537  cd command-line-basics
+  538  man cat
+  539  cat laziness.txt
+  540  cat impatience.txt
+  541  cat hubris.txt
+  542  cat laziness.txt impatience.txt hubris.txt
+  543  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  544  cat three-virtues.txt
+  545  man ls
+  546  ls
+  547  ls
+  548  ls
+  549  ls lfz-staff
+  550  ls -a lfz-staff
+  551  ls -F lfz-staff
+  552  ls -aF lfz-staff > lfz-staff/contents.txt
+  553  cat lfz-staff/contents.txt
+  554  man pwd
+  555  pwd
+  556  pwd > i-was-here.txt
+  557  ls
+  558  cat i-was-here.txt
+  559  man echo
+  560  echo 'Hello, World!'
+  561  echo 'Hello, World!' > hello.txt
+  562  cat hello.txt
+  563  ls
+  564  cat hello.txt
+  565  man touch
+  566  touch tag-youre-it.txt
+  567  touch snoot/boop.txt
+  568  ls
+  569  ls snoot
+  570  man mkdir
+  571  mkdir parent
+  572  ls parent
+  573  ls parent/
+  574  man mkdir
+  575  mkdir -p parent/child/grandchild
+  576  touch parent .gitkeep
+  577  touch .gitkeep
+  578  touch parent/child/grandchild .gitkeep
+  579  parent/child/grandchild -a
+  580  ls -a parent/child/grandchild
+  581  cd parent/child/grandchild
+  582  touch .gitkeep
+  583  cd command-line-basics
+  584  cd command-line-basics
+  585  cd command-line-basics
+  586  man mv
+  587  cd ..
+  588  cd ..
+  589  cd ..
+  590  ls -a parent/child/grandchild
+  591  man mv
+  592  mv pokiemans pokemon
+  593  ls 
+  594  man rm
+  595  rm lol.txt
+  596  ls
+  597  rm -r kill-me/
+  598  ls
+  599  man cp
+  600  man cp
+  601  cp and-then.txt no-and-then.txt
+  602  ls
+  603  cat and-then.txt
+  604  cat no-and-then
+  605  cat no-and-then.txt
+  606  man history
+  607  history
+  608  history > command-history.txt
