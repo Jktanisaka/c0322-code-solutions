@@ -38,6 +38,7 @@ app.post('/api/grades', (req, res) => {
   `;
   if (!Number.isInteger(score) || score <= 0 || score > 100) {
     res.status(400).json({ error: 'score must be an integer between 0 and 100' });
+    return;
   }
   if (!name || !courseName || !score) {
     res.status(400).json({ error: 'name, course, and score are required fields' });
@@ -69,6 +70,7 @@ app.put('/api/grades/:gradeId', (req, res) => {
   `;
   if (!Number(req.params.gradeId) || gradeId <= 0) {
     res.status(400).json({ error: 'invalid ID, must be a positive integer' });
+    return;
   }
   if (!name || !courseName || !score) {
     res.status(400).json({ error: 'name, course, and score are required fields' });
@@ -97,6 +99,7 @@ app.delete('/api/grades/:gradeId', (req, res) => {
 `;
   if (!Number(req.params.gradeId) || gradeId <= 0) {
     res.status(400).json({ error: 'invalid ID, must be a positive integer' });
+    return;
   }
   db.query(sql)
     .then(result => {
