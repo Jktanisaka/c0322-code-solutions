@@ -53,9 +53,66 @@ app.post('/api/grades', (req, res) => {
   }
 });
 
-app.put('/api/grades/:gradeId', () => {
+app.put('/api/grades/:gradeId', (req, res) => {
+  const name = req.body.name;
+  const courseName = req.body.course;
+  const score = Number(req.body.score);
+  const gradeId = Number(req.params.gradeId);
+  const params = [name, courseName, score, gradeId];
+  const sql = `
+    update "grades"
+    set "name" = $1,
+        "course" = $2,
+        "score" = $3
+    where "gradeId" = $4
+    returning *;
+  `;
+  if (!Number(req.params.gradeId) || gradeId <= 0) {
+    res.status(400).json({ error: 'invalid ID, must be a positive integer' });
+  }
+  if (!name || !courseName || !score) {
+    res.status(400).json({ error: 'name, course, and score are required fields' });
+  } else {
+    db.query(sql, params)
+      .then(result => {
+        if (!result.rows[0]) {
+          res.status(404).json({ error: `Cant find grade with gradeId ${gradeId}` });
+        } else {
+          res.status(200).json(result.rows[0]);
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        res.status(500).json({ error: 'Query failed' });
+      });
+  }
+});
 
+app.delete('/api/grades/:gradeId', (req, res) => {
+  const gradeId = Number(req.params.gradeId);
+  const sql = `
+  delete from "grades"
+  where "gradeId" = ${gradeId}
+  returning *;
+`;
+  if (!Number(req.params.gradeId) || gradeId <= 0) {
+    res.status(400).json({ error: 'invalid ID, must be a positive integer' });
+  }
+  db.query(sql)
+    .then(result => {
+      const grade = result.rows[0];
+      if (!grade) {
+        res.status(404).json({ error: `Cant find grade with gradeId ${gradeId}` });
+      } else {
+        res.status(204).json(result.rows[0]);
+      }
+    })
+    .catch(err => {
+      console.error(err);
+      res.status(500).json({ error: 'Query failed' });
+    });
 });
 
 app.listen(3000, () => {
+  process.stdout.write('running' + '\n');
 });
