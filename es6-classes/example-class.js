@@ -1,12 +1,4 @@
-class ExampleClass {
-  constructor(example) {
-    this.example = example;
-  }
-
-  getExample() {
-    return this.example;
-  }
-}
+class ExampleClass {}
 
 const example = new ExampleClass();
 
