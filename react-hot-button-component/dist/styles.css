@@ -9,6 +9,10 @@ button {
   height: 50px;
 }
 
+.default {
+  background-color: lightgray;
+}
+
 .blue {
   background-color: rgb(53 28 117);
   color: white;
