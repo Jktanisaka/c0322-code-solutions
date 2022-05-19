@@ -1,0 +1,30 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 36px;
+}
