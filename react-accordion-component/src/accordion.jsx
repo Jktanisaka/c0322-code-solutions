@@ -23,12 +23,13 @@ export default class Accordion extends React.Component {
     return (
       <ul className='container'>
         {topics.map((topic, index) => {
+          let classVar;
           if (index.toString() === this.state.selected) {
-            this.classVar = '';
-          } else { this.classVar = 'hidden'; }
+            classVar = '';
+          } else { classVar = 'hidden'; }
           return <li key={index}>
            <h1 id={index} onClick={this.handleClick}>{topic.name}</h1>
-           <div className={this.classVar}>{topic.description}</div>
+           <div className={classVar}>{topic.description}</div>
         </li>;
         })}
       </ul>
