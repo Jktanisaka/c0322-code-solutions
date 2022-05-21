@@ -1,0 +1,25 @@
+#root {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  background-color: lightgray;
+  margin: 0;
+  border: 1px solid black;
+}
+
+h1:hover {
+  background-color: gray;
+}
+
+ul {
+  list-style: none;
+  min-width: 100%;
+}
+
+.hidden {
+  display: none;
+}
