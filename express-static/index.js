@@ -2,11 +2,11 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-path.join(__dirname, 'public');
+const mainPath = path.join(__dirname, 'public');
 
-const middleStatic = express.static('public');
+const middleStatic = express.static(mainPath);
 
 app.use(middleStatic);
 
-app.listen(3000, () => {
+app.listen(3001, () => {
 });
