@@ -1,4 +1,48 @@
-User can sign up.
+User can sign up
+Client
+-When the user clicks on the “register now” button or the “sign up” button, the route changes to #sign-up and the page re-renders and updates the URL
+-after  a user enters a name and password and submits the info, the handlesubmit method is triggered
+-The handlesubmit method will send a POST request to the '/api/auth/sign-up' path
+
+Server
+-Once the server receives the request, argon2 will hash the password, then insert the hashed password into the database along with the username.
+-the 1st object in the response will be put into an array and assigned to the user variable
+- If successfully inserted, the server will respond to the client with a 201 status and the user object as json
+
+Client
+-the response will be parsed as json and the hash will be set to display the sign in page
+- the page then rerenders to display the sign-in page and also updates the URL
+
+
 User can sign in.
+Client
+-when the user enters their info and clicks the “log in “ button, the handleSubmit method will be called and the client will send a POST request to the  '/api/auth/sign-in' path
+
+Server
+- the server receives the post request to the '/api/auth/sign-in' path and the server takes the username and password from the request.
+- if both are present, the server will query the database to retrieve the userId and hashedpassword for the entry with the matching username.
+- once both are received, argon2 will verify the hashed password matches the entered password.
+-if the passwords match then the userId and username are put into an object .
+-the token is then created with jwt.sign by using the payload and TOKEN_SECRET
+-the server then responds to the client with the token and user property with the payload object
+
+Client
+-the handleSignIn method will be called with the result as the argument.
+- the user and token are taken from the result object and assigned to variables of the same name
+-the token is then put into localstorage as the react-context-jwt and then the user state is updated with the user variable
+-page will rerender to update the elements and URL
+
+
+
 User can stay signed in (even if they refresh the page).
+Client
+-If page is refreshed, componentdidmount will run after the page has fully rendered
+-The token is then taken from localstorage, decoded (if it exists) and put into the state as user
+-If the token does not exist then the user is set as null in the state
+-The page is then rerendered to display the comedy page
+
 User can sign out.
+Client
+-Once the user clicks the “sign out” button the handleSignOut function is triggered
+-The function removes the token from localstorage and sets the state to user: null
+-The page is then rerendered to show the home page.
