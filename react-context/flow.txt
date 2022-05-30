@@ -1,0 +1,72 @@
+User can sign up
+Client
+-when the app loads, the initial state of user is null (indicating no user currently exists), isAuthorizing is true and the route is set to parseroute of the hash of the location of the window
+-When the user clicks on the “register now” button or the “sign up” button the hash on the button is changed
+-the event listener on the window will see that the hash was changed and will update the state with the parseRoute function
+-the # will be removed in the parseRoute function and this value (sign-up) will be assigned to this.state.route
+-since the state has changed the page will re-render, the path will be read as "sign-up" and the auth page will be rendered
+-the auth page will render and read the path as "sign-up", causing the appropriate styling to be applied to the buttons and welcome messages.
+-after a user enters a name and password and submits the info, the handlesubmit function is triggered
+-the function will prevent the default behavior, preventing the page from reloading on submit
+-it will then take the value of this.props(sign-up) and assign it to the action variable
+-The handlesubmit function will send a POST request to the '/api/auth/${action}' path
+
+
+Server
+-Once the server receives the request, argon2 will hash the password, then insert the hashed password into the database along with the username.
+-the 1st object in the response will be put into an array and assigned to the user variable
+- If successfully inserted, the server will respond to the client with a 201 status and the user object as json
+
+Client
+-the response will be parsed as json and the hash will be set to display the sign in page
+-the handleSubmit function will then see that action is strictly equal to 'sign-up' and will update the hash to be 'sign-in'
+-the event listener on the window will see that the hash was changed and will update the state with the parseRoute function
+-the # will be removed in the parseRoute function and this value (sign-in) will be assigned to this.state.route
+-since the state has changed the page will re-render, the path will be read as "sign-in" and the auth page will be rendered
+-the auth page will render and read the path as "sign-in", causing the appropriate styling to be applied to the buttons and welcome messages.
+
+
+
+User can sign in.
+Client
+-after a user enters a name and password and submits the info, the handlesubmit function is triggered
+-the function will prevent the default behavior, preventing the page from reloading on submit
+-it will then take the value of this.props(sign-in) and assign it to the action variable
+-The handlesubmit function will send a POST request to the '/api/auth/${action}' path
+
+Server
+-the server receives the post request to the '/api/auth/sign-in' path and the server takes the username and password from the request.
+-if both are present, the server will query the database to retrieve the userId and hashedpassword for the entry with the matching username.
+-once both are received, argon2 will verify the hashed password matches the entered password.
+-if the passwords match then the userId and username are put into an object .
+-the token is then created with jwt.sign by using the payload and TOKEN_SECRET
+-the server then responds to the client with the token and user property with the payload object
+
+Client
+-since the user and token props of the user object exist, this triggers the this.props.onSignIn method to be called with the
+ result (json parsed object) as the argument
+-the handleSignIn method will be called with the result as the argument.
+- the user and token are taken from the result object and assigned to variables of the same name
+-the token is then put into localstorage as the react-context-jwt and then the user state is updated with the user variable
+-page will rerender to update the elements and the authpage class will see that a user exists and will trigger the redirect function with the 'to' prop set to an empty string
+-the redirect function will see that the props.to is equal to an empty string and will update the URL to the appropriate value (localhost:3001/#)
+
+
+
+
+User can stay signed in (even if they refresh the page).
+Client
+-If page is refreshed, componentdidmount will run after the page has fully rendered
+-The token is then taken from localstorage, decoded (if it exists) and put into the state as user
+-If the token does not exist then the user is set as null in the state and isAuthorizing is set to false
+-The page is then rerendered the renderPage function will see that the user is in state
+-the path does not matter in this case because there is a guard in the auth function that will redirect to the home page
+-either way the redirect function will see that the props.to is equal to an empty string and will update the URL to the appropriate
+value (localhost:3001/#)
+
+User can sign out.
+Client
+-Once the user clicks the “sign out” button the handleSignOut function is triggered
+-The function removes the token from localstorage and sets the state to user: null
+-The page is then rerendered and since there is no user the redirect function will trigger with the value of to='sign-in'
+causing the page url to change to localhost:3001/sign-in
